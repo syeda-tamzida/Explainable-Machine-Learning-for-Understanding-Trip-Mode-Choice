@@ -8,6 +8,17 @@ Understanding why people choose public or private transport is essential for sol
 
 # Result
 
+
+**Average Accuracy, AUC, and Total Ranking for Models**
+
+| Model | Avg Train Accuracy (%) | Avg Test Accuracy (%) | Avg Train AUC | Avg Test AUC | Train Acc Rank | Test Acc Rank | Train AUC Rank | Test AUC Rank | Total Rank |
+|-------|--------------------------|--------------------------|---------------|---------------|----------------|----------------|----------------|----------------|-------------|
+| RF    | 99.996                  | 97.384                   | 0.999998      | 0.996346      | 1              | 1              | 1              | 1              | 4           |
+| KNN   | 92.709                  | 87.035                   | 0.982292      | 0.938390      | 2              | 2              | 2              | 2              | 8           |
+| XGB   | 88.580                  | 84.915                   | 0.955565      | 0.916886      | 3              | 3              | 3              | 3              | 12          |
+
+
+
 <p align="center">
 <img src="test_size.png" align="center" width="75%"/>
 </p>
